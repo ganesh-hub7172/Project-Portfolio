@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to right, red
+    , #6a8dff);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    padding: 10px 25px;
+    border: none;
+    background: white;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.about img {
+    border-radius: 50%;
+}
+
+.service-cards,
+.portfolio-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.icon {
+    font-size: 30px;
+}
+
+.portfolio a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.contact button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background: #96b5d4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
